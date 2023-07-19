@@ -443,7 +443,7 @@ button:focus {
 	width: 0.4rem;
 	height: 0.4rem;
 	background-color: lightgrey;
-	right: -11.9%;
+	right: -12.2%;
 	z-index: 1;
 }
 
@@ -470,7 +470,7 @@ button:focus {
 	width: 0.4rem;
 	height: 0.4rem;
 	background-color: lightgrey;
-	left: -12.1%;
+	left: -11.9%;
 	z-index: 1;
 }
 
