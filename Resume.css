@@ -595,10 +595,10 @@ button:focus {
     }
 
     .timeline-boxes:nth-child(2n+1)::after{
-		left: -11.5%;
+		left: -7%;
 	}
 	.timeline-boxes:nth-child(2n)::after{
-		left: -11.5% !important;
+		left: -7% !important;
 	}
 
     .timeline-divider {
