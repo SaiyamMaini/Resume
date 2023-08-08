@@ -580,10 +580,10 @@ button:focus {
         display: block;
     }
     
-    
+/*     
     .nav-menu {
         display: none;
-    } 
+    }  */
 }
 
 @media only screen and (max-width: 768px) {
