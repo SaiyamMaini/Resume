@@ -13,6 +13,12 @@ for(var i = 0; i<temp.length; i++){
 
 function scrollVertically(section){
 	var sectionCoordinates = section.getBoundingClientRect();
+
+	// Check if we're already at the bottom section (Contact)
+    if (section === document.querySelector('main > section:last-child') && sectionCoordinates.top <= 300) {
+        clearInterval(interval);
+        return;
+    }
         	if(sectionCoordinates.top <= 0){
         		clearInterval(interval);
         		return;
