@@ -50,6 +50,25 @@ section:target{
 	background-attachment: fixed;
 }
 
+/* percentage scrolled */
+
+.perc-scrolled{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: fixed;
+	height: 4%;
+	width: 10%;
+	border: 1px solid green;
+	border-radius: 30px;
+	color: green;
+	font-weight: bolder;
+	right: 2%;
+	top: 2%;
+	min-width: 95.2px;
+	min-height: 48.98px;
+}
+
 /* horizontal-list */
 .bars{
     color: white;
@@ -339,8 +358,8 @@ section:target{
     padding-bottom: 40px;
 }
 
-#contact h1,
-#contact h1 span {
+#Contact h1,
+#Contact h1 span {
     color: white;
 }
 
